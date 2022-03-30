@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Авторизация" Margin="270,330,270,50" Click="Button_Click"/>
+        <TextBox Margin="190,0,120,288" TextWrapping="Wrap" Text="ЛОГИН" VerticalAlignment="Bottom" Height="60" TextChanged="TextBox_TextChanged_2" />
+        <TextBox HorizontalAlignment="Left" Margin="190,0,0,0" TextWrapping="Wrap" Text="ПАРОЛЬ" VerticalAlignment="Center" Width="490" Height="60" TextChanged="TextBox_TextChanged_1" />
+
+    </Grid>
+</Window>
